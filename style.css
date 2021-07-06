@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+header {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: orangered;
+    text-decoration: none;
+    font-size: 2em;
+
+}
+
+.colortextlogo {
+    color: black
+}
+
+header .navigation {
+    position: relative;
+    display: flex;
+}
+
+header .navigation li {
+    list-style: none;
+}
+
+header .navigation li a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: 400;
+    margin-left: 10px;
+    padding: 8px 15px;
+    border-radius: 40px;
+}
+
+header .navigation li a.active {
+    background: orangered;
+    color: #fff;
+}
+
+header .navigation li a:hover {
+    background: orangered;
+    color: #fff;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.hero-text {
+    width: 50%;
+    padding: 200px 30px;
+
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+}
+
+span {
+    color: orangered;
+}
+
+.hero-text p {
+    padding: 20px 0;
+}
+
+.btn {
+    border: none;
+    outline: none;
+}
+
+.btn a {
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    background-color: orangered;
+    padding: 8px 15px;
+    border-radius: 40px;
+    letter-spacing: 2px;
+
+}
+
+.hero-image img {
+    width: 80%;
+}
+
+.about-me {
+    display: flex;
+    height: 100vh;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+
+.about-me img {
+    width: 60%;
+    padding-left: 150px;
+    padding-top: 20px;
+
+
+}
+
+.about-text {
+    width: 50%;
+    text-align: justify;
+    padding-right: 300px;
+}
+
+.about-text h1 {
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+.about-text p {
+    padding-bottom: 30px;
+
+}
+
+.recipe {
+    height: 100vh;
+}
+
+.tittle {
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card {
+    width: 250px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0 2px 6px 0 grey;
+}
+
+.card img {
+    width: 100%
+}
+
+.socialbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 180px;
+    width: 80%;
+    margin: auto;
+    background-color: orangered;
+}
+
+
+.smedia {
+    color: #fff;
+}
+
+footer {
+    height: 250px;
+    background-color: rgb(46, 44, 44);
+    margin-top: 50px;
+}
+
+footer .footer-text {
+    text-align: center;
+    padding-top: 30px;
+}
